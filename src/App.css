@@ -1,0 +1,57 @@
+.background{
+  text-align: center;
+  background: linear-gradient(90deg, #17064d , #8d1f33);
+  min-height: 100vh;
+  font-family: cursive;
+}
+
+.users{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: cursive;
+}
+
+.brandname{
+    color: orange;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:bolder;
+}
+
+.button{
+    font-size: 1.5rem;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid rgb(252, 252, 252);
+    cursor: pointer;
+}
+
+.button:active , .button:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.welcomemessage{
+  color: white;
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.welcomemessage span{
+  margin-left: 10px;
+  color: blue;
+}
